@@ -1,0 +1,7 @@
+# Instalar en el entorno ComfyUI con Torch/Torchaudio compatibles ya gestionados
+# por el proveedor. No ejecutar upgrades de Torch sobre una sesión en uso.
+numpy>=1.26,<3
+scipy>=1.11,<2
+librosa>=0.10.2,<2
+speechbrain==1.1.2
+pyannote.audio==4.0.7
